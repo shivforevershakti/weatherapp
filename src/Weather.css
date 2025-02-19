@@ -1,0 +1,159 @@
+body{
+    width:100%;
+    background-image:url("../public/1.jpg");
+    background-size: cover;
+    min-height:63vw;
+   
+}
+
+#findplace{
+    width:30%;
+    min-height:4vw;
+    font-size:2vw;
+    font-weight:300;
+    letter-spacing: 2px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button{
+    width:10%;
+    min-height:4vw;
+    font-size:2vw;
+    font-weight:300;
+    letter-spacing: 2px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#home{
+    width:100%;
+    background-size: cover;
+}
+#mist{
+    width:100%;
+    background-image:url("../public/2.jpg");
+    background-size: cover;
+    min-height:63vw;;
+}
+#partlycloudy{
+    width:100%;
+    background-image:url("https://media.giphy.com/media/G1T5M0qT6ZJlu/giphy.gif");
+    background-size: cover;
+    min-height:63vw;
+}
+#heavyrain{
+    width:100%;
+    background-image:url("https://media.giphy.com/media/tsUKmzbp7Ai1gIbBR3/giphy.gif");
+    background-size: cover;
+    min-height:63vw;
+}
+#lightrainshower{
+    width:100%;
+    background-image:url("https://media.giphy.com/media/O8yIhRaSNXv8s/giphy.gif");
+    background-size: cover;
+    min-height:63vw;
+}
+#patchyrain{
+    width:100%;
+    background-image:url("https://media.giphy.com/media/YFFNc10ZJmAI4kgQv7/giphy.gif");
+    background-size: cover;
+    min-height:63vw;
+}
+#sunny{
+    width:100%;
+    background-image:url("https://media.giphy.com/media/uqpK3SuxEY4W9YQvdg/giphy.gif");
+    background-size: cover;
+    height:70vw;
+}
+
+#result{
+  
+    width:40%;
+    margin:auto;
+    border:1px solid black;
+    border-radius:5px;
+    background-color:rgb(0, 0, 0, 0.6) ;
+    color:white;
+    font-size:1.5vw;
+    text-shadow: 2px 2px rgb(192, 183, 183);
+}
+
+@media only screen and (max-width: 600px) {
+ 
+   body{
+        width:100%;
+        background-image:url("../public/1.jpg");
+        background-size: cover;
+        min-height:63vw;
+       
+    }
+    #findplace{
+        width:30%;
+        min-height:5vw;
+        font-size:3vw;
+        font-weight:300;
+        letter-spacing: 2px;
+        border-radius:5px;
+    }
+    button{
+        width:15%;
+        min-height:5vw;
+        font-size:3vw;
+        font-weight:500;
+        letter-spacing: 2px;
+        border-radius:5px;
+    
+    }
+    #home{
+        width:100%;
+        background-size: cover;
+    }
+    #mist{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/dz6Nrk35xWP3q/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    #partlycloudy{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/G1T5M0qT6ZJlu/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    #heavyrain{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/tsUKmzbp7Ai1gIbBR3/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    #lightrainshower{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/O8yIhRaSNXv8s/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    #patchyrain{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/YFFNc10ZJmAI4kgQv7/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    #sunny{
+        width:100%;
+        background-image:url("https://media.giphy.com/media/uqpK3SuxEY4W9YQvdg/giphy.gif");
+        background-size: cover;
+        min-height:100vw;
+    }
+    
+    #result{
+      
+        width:40%;
+        margin:auto;
+        border:1px solid black;
+        border-radius:5px;
+        background-color:rgb(0, 0, 0, 0.6) ;
+        color:white;
+    
+}
+
+}
